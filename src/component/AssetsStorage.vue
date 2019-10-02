@@ -12,7 +12,6 @@
           class="search"
           placeholder="请输入内容"
           prefix-icon="el-icon-search"
-          v-model="input21"
           style="width: 20%">
         </el-input>
         <el-button size="mini" type="primary" circle @click="addAsset()" plain style="margin-left: 20px;" icon="el-icon-circle-plus"></el-button>
@@ -507,7 +506,6 @@ export default {
       departmentFlag: null,
       propertyClassFlag: null,
       brandFlag: null,
-      input21: "",
       header: {
         "Content-Type": "application/json"
       },

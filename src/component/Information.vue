@@ -23,11 +23,11 @@ https://teenyda-blog.oss-cn-shenzhen.aliyuncs.com/blog-image/u%3D558219988%2C390
                         <el-tag>职位:{{information.userJob}}</el-tag>
                     </div>
                 </div>
-                
+
                 <div class="update">
                     <el-button type="primary" icon="el-icon-edit" circle @click="update()"></el-button>
                 </div>
-                
+
             </div>
 
             <el-dialog title="修改个人信息" :visible.sync="dialogFormVisible">
@@ -57,7 +57,7 @@ https://teenyda-blog.oss-cn-shenzhen.aliyuncs.com/blog-image/u%3D558219988%2C390
                 <el-form-item label="职位" :label-width="formLabelWidth">
                     <el-input v-model="form.userJob"></el-input>
                 </el-form-item>
-                
+
             </el-form>
             <div slot="footer" class="dialog-footer">
                 <el-button @click="dialogFormVisible = false">取 消</el-button>
@@ -67,7 +67,7 @@ https://teenyda-blog.oss-cn-shenzhen.aliyuncs.com/blog-image/u%3D558219988%2C390
 
 
         </el-col>
-    </div>  
+    </div>
 </template>
 
 <script>
@@ -75,6 +75,7 @@ import ajax from '../model/ajax.js'
 import api from '../model/api.js'
 import Main from './Main.vue'
 import storage from '../model/storage.js'
+import assetEnum from '../model/assetEnum.js'
 
 export default{
     data(){
@@ -125,15 +126,18 @@ export default{
                     console.log(res);
                     this.information = res.data.data
                 })
-            
-            
+
+
         },
-        
+
     },
     mounted () {
         let user = storage.get('user')
         this.userId = user.userId
         this.getinformatin()
+        let PropertyStateEnum = assetEnum.PropertyStateEnum
+        let state = assetEnum.PropertyStateEnum.NO_USE
+        console.log(PropertyStateEnum.properties[state].value)
     },
     components: {
         'v-nav': Main
@@ -149,7 +153,7 @@ export default{
     height: 270px;
     /* margin: 50px 20px 2px; */
     background-color: #fff;
-    
+
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgb(139, 139, 139);
 }
@@ -183,7 +187,7 @@ export default{
     margin-left: 10px;
     justify-content: space-between;
     flex-direction: column;
-    
+
 }
 
 .update {

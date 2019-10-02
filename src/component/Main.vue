@@ -15,7 +15,6 @@ https://teenyda-blog.oss-cn-shenzhen.aliyuncs.com/blog-image/u%3D558219988%2C390
 
         <!-- :default-openeds="openeds" -->
         <el-menu
-          :default-openeds="openeds"
           :default-active="$route.path"
           router
           :unique-opened="true"

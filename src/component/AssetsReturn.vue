@@ -10,7 +10,6 @@
               class="search"
               placeholder="请输入内容"
               prefix-icon="el-icon-search"
-              v-model="input21"
               style="width: 20%">
             </el-input>
             <el-button size="mini" type="primary" circle @click="addBorrow()" plain style="margin-left: 20px;" icon="el-icon-circle-plus"></el-button>
