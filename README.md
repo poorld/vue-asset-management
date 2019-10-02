@@ -1,7 +1,7 @@
 
 # 说明:
 
-## 请求数据类型: 
+## 请求数据类型:
 ### 资产管理:
 >1.新增资产
 
@@ -112,7 +112,7 @@ public List<Property> FindallProperty() {
 		Locale locale = new Locale();
 		Supplier supplier = new Supplier();
 		Department department = new Department();
-		
+
 		for (int i = 0; i < properties.size(); i++){
 			Property property = properties.get(i);
 			if (property.getLocale() == null){
@@ -292,4 +292,3 @@ root /var/www/html;
         }
     ]
 }
-# vue-asset-management
