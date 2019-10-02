@@ -3,7 +3,11 @@
     <div>
         <div class="head">
         <h1>资产管理系统</h1>
-        <el-button type="warning" @click="loginout">退出</el-button>
+        <div class="head-right">
+          <img class="avatar" src="
+https://teenyda-blog.oss-cn-shenzhen.aliyuncs.com/blog-image/u%3D558219988%2C3903772744%26fm%3D26%26gp%3D0.jpg" />
+          <el-button type="info" size="small" @click="loginout">退出</el-button>
+        </div>
     </div>
       <el-col :span="4">
       <div class="body">
@@ -11,7 +15,7 @@
 
         <!-- :default-openeds="openeds" -->
         <el-menu
-
+          :default-openeds="openeds"
           :default-active="$route.path"
           router
           :unique-opened="true"
@@ -103,13 +107,23 @@ import storage from '../model/storage.js'
 export default {
   methods: {
     handleOpen(key, keyPath) {
+      console.log('handleOpen()')
       let obj = {
         'open': key
       }
       // storage.set('menu',obj)
       console.log(key, keyPath);
+      // if (key[0] === '1'){
+      //   this.openeds = ['1']
+      // }else if(key[0] === '2'){
+      //   this.openeds = ['2']
+      // }
+
+
+      console.log(this.openeds)
     },
     handleClose(key, keyPath) {
+      console.log('handleClose()')
       // storage.remove('menu')
       console.log(key, keyPath);
     },
@@ -119,7 +133,7 @@ export default {
   },
   data() {
     return {
-      // openeds: ['1','2']
+      // openeds: ['1']
     };
   },
   mounted() {}
@@ -137,10 +151,6 @@ export default {
   margin: 0 auto;
 }
 
-.head button {
-  text-align: center;
-  margin-right: 20px;
-}
 
 .el-menu {
   border-right: none;
@@ -149,5 +159,21 @@ export default {
 .over-hide{
     overflow: hidden;
   }
+.body {
+  margin: 0;
+  padding: 0;
+}
 
+
+.head-right {
+  display: inherit;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px
+}
 </style>

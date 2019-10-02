@@ -5,7 +5,15 @@
 
         <el-col :span="20">
         <div class="add-btn">
-            <el-button type="success" circle @click="addScrapped()" plain>新增</el-button>
+          <el-input
+              class="search"
+              placeholder="请输入内容"
+              prefix-icon="el-icon-search"
+              v-model="input21"
+              style="width: 20%">
+            </el-input>
+            <el-button size="mini" type="primary" circle @click="addScrapped()" plain style="margin-left: 20px;" icon="el-icon-circle-plus"></el-button>
+            <!-- <el-button type="success" circle @click="addScrapped()" plain>新增</el-button> -->
         </div>
 
         <div class="container">

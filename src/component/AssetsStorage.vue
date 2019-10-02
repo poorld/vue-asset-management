@@ -5,7 +5,6 @@
     <div>
       <v-nav></v-nav>
 
-
       <el-col :span="20">
 
       <div class="add-btn">
@@ -16,7 +15,9 @@
           v-model="input21"
           style="width: 20%">
         </el-input>
-        <el-button type="success" circle @click="addAsset()" plain style="margin-left: 20px;">新增</el-button>
+        <el-button size="mini" type="primary" circle @click="addAsset()" plain style="margin-left: 20px;" icon="el-icon-circle-plus"></el-button>
+
+
       </div>
 
 
