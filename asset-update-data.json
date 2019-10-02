@@ -1,0 +1,60 @@
+{
+	"localelist": [
+			{
+				"localeId": "0001",
+				"localeName": "计算机外围设备",
+				"localeType": 1,
+				"localeState": 1,
+				"localeExplain": "1号仓库"
+			},{
+				"localeId": "0002",
+				"localeName": "渣渣辉",
+				"localeType": 1,
+				"localeState": 2,
+				"localeExplain": "2号仓库"
+			},{
+				"localeId": "0003",
+				"localeName": "哈哈哈哈",
+				"localeType": 2,
+				"localeState": 1,
+				"localeExplain": "3号仓库"
+			}],
+	"supplierlist": [
+			{
+				"supplierId": "1",
+				"supplierApellation": "服务器供应商",
+				"supplierType": 1,
+				"supplierState": 1,
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西南宁"
+			},{
+				"supplierId": "2",
+				"supplierApellation": "显示屏供应商",
+				"supplierType": 2,
+				"supplierState": 1,
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西白色"
+			},{
+				"supplierId": "3",
+				"supplierApellation": "哒哒供应商",
+				"supplierType": 3,
+				"supplierState": 2,
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西玉林"
+			}],
+	"departmentlist": [
+		{
+			"departmentId": 10001,
+			"departmentState": 1,
+			"departmentName": "软件工程部",
+			"departmentCode": "w33232fdasf"
+		},{
+			"departmentId": 10002,
+			"departmentState": 2,
+			"departmentName": "网络安全部",
+			"departmentCode": "u123r32532532"
+		}]
+}

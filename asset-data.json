@@ -1,0 +1,140 @@
+{
+	"propertylist": [
+		{
+			"propertyId": 1,
+			"propertyCode": 1001,
+			"propertyState": 1,
+			"propertyName": "电脑显示屏",
+			"propertyDate": "2016-11-02",
+			"propertyDescr": "说明说明",
+			"locale": {
+				"localeId": "0001",
+				"localeName": "计算机外围设备",
+				"localeType": 1,
+				"localeState": "正常",
+				"localeExplain": "一号仓库"
+			},
+			"supplier": {
+				"supplierId": "1",
+				"supplierApellation": "服务器供应商",
+				"supplierType": 1,
+				"supplierState": "正常",
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西南宁"
+			},
+			"department": {
+				"departmentId": "111",
+				"departmentName": "软件工程部",
+				"departmentCode": "w21543253253"
+			}
+		},{
+			"propertyId": 2,
+			"propertyCode": 1002,
+			"propertyState": 2,
+			"propertyName": "红米5plus",
+			"propertyDate": "2017-06-02",
+			"locale": {
+				"localeId": "0002",
+				"localeName": "垃圾设备",
+				"localeIdType": 2,
+				"localeState": 1,
+				"localeExplain": "二号仓库"
+			},
+			"supplier": {
+				"supplierId": "1",
+				"supplierApellation": "手机提供商",
+				"supplierType": 2,
+				"supplierState": 2,
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西南宁"
+			},
+			"department": {
+				"departmentId": "222",
+				"departmentName": "计算机工程部",
+				"departmentCode": "w44442323"
+			}
+		},{
+			"propertyId": 2,
+			"propertyCode": 1002,
+			"propertyState": 1,
+			"propertyName": "红米5plus",
+			"propertyDate": "2017-06-02",
+			"locale": {
+				"localeId": "0002",
+				"localeName": "垃圾设备",
+				"localeIdType": 1,
+				"localeState": 1,
+				"localeExplain": "二号仓库"
+			},
+			"supplier": {
+				"supplierId": "1",
+				"supplierApellation": "手机提供商",
+				"supplierType": 3,
+				"supplierState": 1,
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西南宁"
+			},
+			"department": {
+				"departmentId": "222",
+				"departmentName": "计算机工程部",
+				"departmentCode": "w44442323"
+			}
+		},{
+			"propertyId": 2,
+			"propertyCode": 1002,
+			"propertyState": 2,
+			"propertyName": "红米5plus",
+			"propertyDate": "2017-06-02",
+			"locale": {
+				"localeId": "0002",
+				"localeName": "垃圾设备",
+				"localeIdType": 2,
+				"localeState": 2,
+				"localeExplain": "二号仓库"
+			},
+			"supplier": {
+				"supplierId": "1",
+				"supplierApellation": "手机提供商",
+				"supplierType": 2,
+				"supplierState": 2,
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西南宁"
+			},
+			"department": {
+				"departmentId": "222",
+				"departmentName": "计算机工程部",
+				"departmentCode": "w44442323"
+			}
+		},{
+			"propertyId": 2,
+			"propertyCode": 1002,
+			"propertyState": 1,
+			"propertyName": "红米5plus",
+			"propertyDate": "2017-06-02",
+			"locale": {
+				"localeId": "0002",
+				"localeName": "垃圾设备",
+				"localeIdType": 2,
+				"localeState": 1,
+				"localeExplain": "二号仓库"
+			},
+			"supplier": {
+				"supplierId": "1",
+				"supplierApellation": "手机提供商",
+				"supplierType": 1,
+				"supplierState": 1,
+				"supplierName": "哒哒",
+				"supplierPhone": 15278389583,
+				"supplierAddress": "广西南宁"
+			},
+			"department": {
+				"departmentId": "222",
+				"departmentName": "计算机工程部",
+				"departmentCode": "w44442323"
+			}
+		}]
+}
